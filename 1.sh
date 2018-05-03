@@ -28,6 +28,8 @@ sleep 5
 yes '' | sudo add-apt-repository ppa:bitcoin/bitcoin
 sleep 5
 sudo apt-get -y install libdb4.8-dev libdb4.8++-dev
+sleep 5
+sudo apt-get install fail2ban
 echo " "
 echo " "
 echo " "
