@@ -17,7 +17,7 @@ sleep 30
 Lindad stop
 cd ~/
 clear
-echo -n "Enter your private key & press Enter: "
+echo -n "Enter your genkey & press Enter: "
 read masternodegenkey
 echo "rpcuser=asupersecureusername
 rpcpassword=anevenmoresecurepassword
