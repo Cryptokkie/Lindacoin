@@ -17,7 +17,6 @@ cd ~/ https://github.com/TheLindaProjectInc/Linda/releases/download/v3.0.0.0/Uni
 tar -xzvf Unix.Lindad-v3.0.0.0g.tar.gz -C /usr/local/bin/
 sleep 2
 rm -rf Lindacoin
-rm -rf filename.tar.gz
 echo " "
 echo " "
 echo " "
