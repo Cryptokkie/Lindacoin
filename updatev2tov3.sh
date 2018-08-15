@@ -13,7 +13,8 @@ echo " "
 sleep 5
 Lindad stop
 sleep 15
-cd ~/ wget https://github.com/TheLindaProjectInc/Linda/releases/download/v3.0.0.0/Unix.Lindad-v3.0.0.0g.tar.gz
+cd ~/ 
+wget https://github.com/TheLindaProjectInc/Linda/releases/download/v3.0.0.0/Unix.Lindad-v3.0.0.0g.tar.gz
 tar -xzvf Unix.Lindad-v3.0.0.0g.tar.gz -C /usr/local/bin/
 sleep 2
 rm -rf Lindacoin
