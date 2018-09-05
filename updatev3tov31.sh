@@ -21,9 +21,15 @@ rm -rf Lindacoin
 rm -rf Unix.Lindad-v3.1.0.0g.tar.gz
 Lindad
 echo " "
-echo "NerdyUser: Starting your wallet for a minute."
+echo "NerdyUser: Starting your wallet and checking masternode status."
 echo " "
 sleep 60
+echo " "
+echo " "
+echo " "
+echo " "
+echo " "
+echo " "
 Lindad masternode start
 echo " "
 echo " "
