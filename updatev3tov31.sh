@@ -24,23 +24,16 @@ echo " "
 echo "NerdyUser: Starting your wallet for a minute."
 echo " "
 sleep 60
-Lindad stop
+Lindad masternode start
 echo " "
 echo " "
 echo " "
 echo " "
 echo " "
-echo "NerdyUser: Your VPS will reboot now."
+echo "NerdyUser: If you see 'masternode started remotely' is the upgrade done!"
+echo " "
+echo "NerdyUser: If not, wait a minute more and try 'Lindad masternode start'"
 echo " "
 echo " "
-echo "NerdyUser: Reconnect to your VPS in 2 minutes."
 echo " "
 echo " "
-echo "NerdyUser: Perform after reconnecting: Lindad"
-echo " "
-echo " "
-echo "NerdyUser: Perform 2 minutes later: Lindad masternode start"
-echo " "
-echo " "
-sleep 10
-reboot
