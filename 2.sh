@@ -1,6 +1,6 @@
 cd ~/
-wget https://github.com/TheLindaProjectInc/Linda/releases/download/v3.1.0.0/Unix.Lindad-v3.1.0.0g.tar.gz
-tar -xzvf Unix.Lindad-v3.1.0.0g.tar.gz -C /usr/local/bin/
+wget https://github.com/TheLindaProjectInc/Linda/releases/download/3.1.0.1/Unix.Lindad-v3.1.0.1g.tar.gz
+tar -xzvf Unix.Lindad-v3.1.0.1g.tar.gz -C /usr/local/bin/
 Lindad -daemon
 echo " "
 echo " "
@@ -53,7 +53,7 @@ echo " "
 echo " "
 cd ~/
 rm -rf Lindacoin
-rm -rf Unix.Lindad-v3.1.0.0g.tar.gz
+rm -rf Unix.Lindad-v3.1.0.1g.tar.gz
 echo " "
 echo " "
 echo " "
