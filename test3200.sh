@@ -12,17 +12,15 @@ echo " "
 echo " "
 sleep 5
 cd ~/
-sudo apt update && sudo apt -y upgrade
-sleep 5
-fallocate -l 3G /swapfile
-chmod 600 /swapfile
-mkswap /swapfile
-swapon /swapfile
-sudo echo -e "/swapfile none swap sw 0 0 \n" >> /etc/fstab
-sleep 5
-sudo apt-get install -y pkg-config
-sleep 5
-cd ~/
+#sudo apt update && sudo apt -y upgrade
+#sleep 5
+#fallocate -l 3G /swapfile
+#chmod 600 /swapfile
+#mkswap /swapfile
+#swapon /swapfile
+#sudo echo -e "/swapfile none swap sw 0 0 \n" >> /etc/fstab
+#sleep 5
+#cd ~/
 Lindad
 sleep 30
 Lindad stop
