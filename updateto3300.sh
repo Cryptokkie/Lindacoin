@@ -18,8 +18,10 @@ echo "Current wallet stopped, wait 10 seconds."
 echo " "
 sleep 10
 wget https://github.com/TheLindaProjectInc/Linda/releases/download/3.3.0.0/Lindad-linux-x64.tar.gz
+rm /usr/local/bin/Lindad
 tar -xzvf Lindad-linux-x64.tar.gz -C /usr/local/bin/
-rm /usr/local/bin/Linda-cli
+mv /usr/local/bin/Lindad-linux-x64 /usr/local/bin/Lindad
+rm /usr/local/bin/Linda-cli-linux-x64
 sleep 5
 Lindad
 echo " "
