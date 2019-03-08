@@ -22,7 +22,7 @@ swapon /swapfile
 sudo echo -e "/swapfile none swap sw 0 0 \n" >> /etc/fstab
 sleep 5
 cd ~/
-wget https://github.com/TheLindaProjectInc/Linda/releases/download/3.3.0.0/Lindad-linux-x64.tar.gz
+wget https://github.com/TheLindaProjectInc/Linda/releases/download/3.3.1/Lindad-linux-x64.tar.gz
 tar -xzvf Lindad-linux-x64.tar.gz -C /usr/local/bin/
 rm /usr/local/bin/Linda-cli
 Lindad
